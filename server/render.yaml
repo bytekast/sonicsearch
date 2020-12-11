@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: sonic-level
+    env: docker
+    healthCheckPath: /health
+    envVars:
+      - key: API_KEY
+        generateValue: true
+    disk:
+      name: sonic-level
+      mountPath: /var/lib/data
+      sizeGB: 10

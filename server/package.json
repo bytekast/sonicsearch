@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "fastify": "^2.15.3",
+    "fastify-auth": "^0.7.2",
+    "level": "^6.0.1",
+    "sonic-channel": "^1.2.6",
+    "stringify-object": "^3.3.0",
+    "uniqid": "^5.2.0"
+  }
+}
