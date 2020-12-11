@@ -1,0 +1,11 @@
+org: serverlessteam
+app: serverless-extensions
+service: sonic-search
+provider: aws
+
+layers:
+  sonic-search:
+    path: src
+    compatibleRuntimes:
+      - nodejs10.x
+      - nodejs12.x
