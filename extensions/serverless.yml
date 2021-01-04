@@ -9,3 +9,5 @@ layers:
     compatibleRuntimes:
       - nodejs10.x
       - nodejs12.x
+    allowedAccounts:
+      - '*'
